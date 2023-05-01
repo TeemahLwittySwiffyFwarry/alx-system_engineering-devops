@@ -3,7 +3,11 @@
 # in per-user configuration files or on the command line.
 
 
-Host *
+Host alx
+	Hostname 35.168.3.151
+	user ubuntu
+	IdentityFile ~/.ssh/school
+
 	PasswordAuthentication no
-#   	HostbasedAuthentication no
-    	IdentityFile ~/.ssh/school
+   	
+    	
